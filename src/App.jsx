@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Informacion from "./components/Informacion";
+import Contador from "./components/Contador";
 
 function App() {
   // aca va lo logica del componente
@@ -11,6 +12,7 @@ function App() {
     {/* aca va el maquetado del HTML */}
       <h1> Hola mundo </h1>
       <Informacion comisionProps={comision} anio={2025}></Informacion>
+      <Contador/>
     </main>
   );
 }
